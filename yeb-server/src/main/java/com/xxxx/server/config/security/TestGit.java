@@ -6,4 +6,7 @@ package com.xxxx.server.config.security;
  * @author：
  */
 public class TestGit {
+    public static void main(String[] args) {
+
+    }
 }
