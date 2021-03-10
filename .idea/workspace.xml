@@ -4,7 +4,470 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="Create README.md">
+    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="框架">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.gradle/6.7/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.gradle/6.7/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/artifacts/ch11_spring_web_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/artifacts/ch11_spring_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__com_alibaba_druid_1_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2_1_b03.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch01-di-anno/ch01-di-anno.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch01-di-anno/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch01-di-anno/src/main/java/com/powernode/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch01-di-anno/src/test/java/com/powernode/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-home/.idea/ch03-ioc-home.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-home/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-home/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-home/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/ch03-ioc-homework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/src/main/java/com/homework/MyApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/src/main/java/com/homework/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/src/main/java/com/homework/dao/impl/OracleDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/src/main/java/com/homework/dao/impl/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/src/main/java/com/homework/domain/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/src/main/java/com/homework/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/src/main/java/com/homework/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/src/test/java/cspowernode/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/target/classes/com/homework/MyApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/target/classes/com/homework/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/target/classes/com/homework/dao/impl/OracleDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/target/classes/com/homework/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/target/classes/com/homework/domain/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/target/classes/com/homework/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/target/classes/com/homework/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch03-ioc-homework/target/test-classes/cspowernode/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/ch04-di-anno.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba01/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba02/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba03/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba03/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba04/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba04/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba05/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba05/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba06/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba06/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba07/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba07/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/java/com/lypowernode/ba08/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/resources/ba01/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/resources/ba02/applicationContext-package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/resources/ba02/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/resources/ba03/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/resources/ba04/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/resources/ba05/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/resources/ba06/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/resources/ba07/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/resources/ba08.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/main/resources/ba08/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/test/java/com/lypowernode/Mytest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/test/java/com/lypowernode/Mytest02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/test/java/com/lypowernode/Mytest03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/test/java/com/lypowernode/Mytest04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/test/java/com/lypowernode/Mytest05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/test/java/com/lypowernode/Mytest06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/test/java/com/lypowernode/Mytest07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/ch04-di-anno/src/test/java/com/lypowernode/Mytest08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba01/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba02/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba03/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba03/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba04/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba04/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba05/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba05/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba06/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba06/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba07/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba07/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/java/com/cspowernode/ba08/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/resources/applicationContextValue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/main/resources/test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/test/java/com/cspowernode/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/test/java/com/cspowernode/MyTest02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/test/java/com/cspowernode/MyTest03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/test/java/com/cspowernode/MyTest04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/test/java/com/cspowernode/MyTest05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/test/java/com/cspowernode/MyTest06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/test/java/com/cspowernode/MyTest07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/src/test/java/com/cspowernode/MyTest08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/applicationContextValue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/ba01/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/ba02/applicationContext-package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/ba02/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/ba03/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/ba04/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/ba05/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/ba06/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/ba07/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/ba08.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/ba08/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba01/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba02/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba03/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba03/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba04/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba04/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba05/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba05/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba06/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba06/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba07/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba07/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/cspowernode/ba08/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba01/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba02/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba03/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba03/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba04/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba04/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba05/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba05/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba06/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba06/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba07/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba07/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/com/lypowernode/ba08/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/classes/test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/cspowernode/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/cspowernode/MyTest02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/cspowernode/MyTest03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/cspowernode/MyTest04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/cspowernode/MyTest05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/cspowernode/MyTest06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/cspowernode/MyTest07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/cspowernode/MyTest08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/lypowernode/Mytest01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/lypowernode/Mytest02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/lypowernode/Mytest03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/lypowernode/Mytest04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/lypowernode/Mytest05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/lypowernode/Mytest06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/lypowernode/Mytest07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch04-di-anno/target/test-classes/com/lypowernode/Mytest08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-aop-eadin/ch05-aop-leadin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-aop-eadin/src/com/cspowernode/handler/MyIncationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-aop-eadin/src/com/cspowernode/service/MyApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-aop-eadin/src/com/cspowernode/service/SomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-aop-eadin/src/com/cspowernode/service/impl/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-aop-eadin/src/com/cspowernode/service/impl/SomeServiceImpl2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-aop-eadin/src/com/cspowernode/util/ServiceTools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/ch05-spring-aop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/src/main/java/lypowernode/MyApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/src/main/java/lypowernode/handler/MyInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/src/main/java/lypowernode/service/OtherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/src/main/java/lypowernode/service/SomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/src/main/java/lypowernode/service/impl/OtherServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/src/main/java/lypowernode/service/impl/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/src/main/java/lypowernode/service/impl/SomeServiceImpl1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/src/main/java/lypowernode/service/impl/SomeServiceImpl2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/src/main/java/lypowernode/util/ServiceTools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/target/classes/lypowernode/MyApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/target/classes/lypowernode/handler/MyInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/target/classes/lypowernode/service/OtherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/target/classes/lypowernode/service/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/target/classes/lypowernode/service/impl/OtherServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/target/classes/lypowernode/service/impl/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/target/classes/lypowernode/service/impl/SomeServiceImpl1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/target/classes/lypowernode/service/impl/SomeServiceImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch05-spring-aop/target/classes/lypowernode/util/ServiceTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/ch06-aop-aspectj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/main/java/com/cspowernode/ba01/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/main/java/com/cspowernode/ba01/SomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/main/java/com/cspowernode/ba01/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/main/java/com/cspowernode/ba01/SomeServiceImpl1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/main/java/com/cspowernode/ba02/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/main/java/com/cspowernode/ba02/SomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/main/java/com/cspowernode/ba02/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/main/java/com/cspowernode/ba02/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/main/java/com/lypowernode/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/test/java/com/cspowernode/ba01/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/test/java/com/cspowernode/ba02/MyTest02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/src/test/java/com/lypowernode/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/classes/com/cspowernode/ba01/MyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/classes/com/cspowernode/ba01/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/classes/com/cspowernode/ba01/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/classes/com/cspowernode/ba01/SomeServiceImpl1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/classes/com/cspowernode/ba02/MyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/classes/com/cspowernode/ba02/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/classes/com/cspowernode/ba02/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/classes/com/cspowernode/ba02/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/classes/com/lypowernode/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/test-classes/com/cspowernode/ba01/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/test-classes/com/cspowernode/ba02/MyTest02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch06-aop-aspectJ/target/test-classes/com/lypowernode/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/a.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/ch07-mybatis-spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/src/main/java/com/lypowernode/dao/StudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/src/main/java/com/lypowernode/dao/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/src/main/java/com/lypowernode/domain/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/src/main/java/com/lypowernode/domain/StudentExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/src/main/java/com/lypowernode/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/src/main/java/com/lypowernode/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/src/main/resources/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/src/main/resources/test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/src/test/java/com/lypowernode/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/com/lypowernode/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/com/lypowernode/dao/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/com/lypowernode/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/com/lypowernode/domain/StudentExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/com/lypowernode/domain/StudentExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/com/lypowernode/domain/StudentExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/com/lypowernode/domain/StudentExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/com/lypowernode/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/com/lypowernode/service/impl/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/classes/test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/surefire-reports/TEST-com.lypowernode.MyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/surefire-reports/com.lypowernode.MyTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-mybatis-spring/target/test-classes/com/lypowernode/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/ch07-spring-mybatis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/src/main/java/com/lypowernode/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch07-spring-mabatis/src/test/java/com/lypowernode/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/ch08-spring-trans.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/java/com/lypowernode/dao/GoodsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/java/com/lypowernode/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/java/com/lypowernode/dao/SaleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/java/com/lypowernode/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/java/com/lypowernode/domain/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/java/com/lypowernode/domain/Sale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/java/com/lypowernode/exception/NotEnoughException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/java/com/lypowernode/service/BuyGoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/java/com/lypowernode/service/impl/BuyGoodsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/main/resources/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/src/test/java/com/lypowernode/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/com/lypowernode/dao/GoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/com/lypowernode/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/com/lypowernode/dao/SaleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/com/lypowernode/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/com/lypowernode/domain/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/com/lypowernode/domain/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/com/lypowernode/exception/NotEnoughException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/com/lypowernode/service/BuyGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/com/lypowernode/service/impl/BuyGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch08-spring-trans/target/test-classes/com/lypowernode/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/ch09-spring-trans-anno.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/java/com/lypowernode/dao/GoodsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/java/com/lypowernode/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/java/com/lypowernode/dao/SaleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/java/com/lypowernode/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/java/com/lypowernode/domain/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/java/com/lypowernode/domain/Sale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/java/com/lypowernode/exception/NotEnoughException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/java/com/lypowernode/service/BuyGoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/java/com/lypowernode/service/impl/BuyGoodsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/main/resources/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/src/test/java/com/lypowernode/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/com/lypowernode/dao/GoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/com/lypowernode/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/com/lypowernode/dao/SaleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/com/lypowernode/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/com/lypowernode/domain/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/com/lypowernode/domain/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/com/lypowernode/exception/NotEnoughException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/com/lypowernode/service/BuyGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/com/lypowernode/service/impl/BuyGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch09-spring-trans-anno/target/test-classes/com/lypowernode/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/ch10-spring-trans-aspectJ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/java/com/lypowernode/dao/GoodsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/java/com/lypowernode/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/java/com/lypowernode/dao/SaleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/java/com/lypowernode/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/java/com/lypowernode/domain/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/java/com/lypowernode/domain/Sale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/java/com/lypowernode/exception/NotEnoughException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/java/com/lypowernode/service/BuyGoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/java/com/lypowernode/service/impl/BuyGoodsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/main/resources/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/src/test/java/com/lypowernode/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/com/lypowernode/dao/GoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/com/lypowernode/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/com/lypowernode/dao/SaleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/com/lypowernode/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/com/lypowernode/domain/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/com/lypowernode/domain/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/com/lypowernode/exception/NotEnoughException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/com/lypowernode/service/BuyGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/com/lypowernode/service/impl/BuyGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch10-spring-trans-aspectJ/target/test-classes/com/lypowernode/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/.idea/ch11-spring-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/ch11-spring-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/java/com/lypowernode/controller/RegisterServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/java/com/lypowernode/dao/StudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/java/com/lypowernode/dao/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/java/com/lypowernode/domain/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/java/com/lypowernode/domain/StudentExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/java/com/lypowernode/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/java/com/lypowernode/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/resources/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/resources/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/src/main/webapp/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/com/lypowernode/controller/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/com/lypowernode/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/com/lypowernode/dao/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/com/lypowernode/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/com/lypowernode/domain/StudentExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/com/lypowernode/domain/StudentExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/com/lypowernode/domain/StudentExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/com/lypowernode/domain/StudentExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/com/lypowernode/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/com/lypowernode/service/impl/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/ch11-spring-web-1.0-SNAPSHOT/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/com/lypowernode/controller/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/com/lypowernode/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/com/lypowernode/dao/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/com/lypowernode/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/com/lypowernode/domain/StudentExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/com/lypowernode/domain/StudentExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/com/lypowernode/domain/StudentExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/com/lypowernode/domain/StudentExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/com/lypowernode/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/com/lypowernode/service/impl/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/ch11-spring-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/out/production/ch05-aop-leadin/com/cspowernode/handler/MyIncationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/out/production/ch05-aop-leadin/com/cspowernode/service/MyApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/out/production/ch05-aop-leadin/com/cspowernode/service/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/out/production/ch05-aop-leadin/com/cspowernode/service/impl/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/out/production/ch05-aop-leadin/com/cspowernode/service/impl/SomeServiceImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-course1/out/production/ch05-aop-leadin/com/cspowernode/util/ServiceTools.class" beforeDir="false" />
+    </list>
+    <list id="48223a4f-da9b-455b-9d9f-99e0ff0f4df6" name="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]" comment="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +508,28 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="shengwuer" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="yeb-back" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="6" end1="8" start2="6" end2="467" changelist="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" />
+        <range start1="9" end1="9" start2="468" end2="472" changelist="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" />
+        <range start1="46" end1="46" start2="509" end2="514" changelist="48223a4f-da9b-455b-9d9f-99e0ff0f4df6" />
+        <range start1="81" end1="82" start2="549" end2="550" changelist="48223a4f-da9b-455b-9d9f-99e0ff0f4df6" />
+        <range start1="151" end1="152" start2="619" end2="619" changelist="48223a4f-da9b-455b-9d9f-99e0ff0f4df6" />
+        <range start1="153" end1="154" start2="620" end2="620" changelist="48223a4f-da9b-455b-9d9f-99e0ff0f4df6" />
+        <range start1="161" end1="161" start2="627" end2="628" changelist="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" />
+        <range start1="197" end1="198" start2="664" end2="667" changelist="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" />
+        <range start1="255" end1="256" start2="724" end2="739" changelist="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" />
+        <range start1="274" end1="274" start2="757" end2="761" changelist="48223a4f-da9b-455b-9d9f-99e0ff0f4df6" />
+        <range start1="279" end1="280" start2="766" end2="770" changelist="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" />
+      </ranges>
+    </file>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -79,7 +564,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -149,9 +634,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.YebApplication" />
-        <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="Spring Boot.YebApplication" />
-        <item itemvalue="Application.CodeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +642,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="" />
+      <changelist id="48223a4f-da9b-455b-9d9f-99e0ff0f4df6" name="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]" comment="" />
       <created>1612319837914</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -195,7 +679,9 @@
       <workItem from="1615260399999" duration="729000" />
       <workItem from="1615261499327" duration="921000" />
       <workItem from="1615348059730" duration="98000" />
-      <workItem from="1615356242825" duration="5422000" />
+      <workItem from="1615356242825" duration="5748000" />
+      <workItem from="1615363171969" duration="686000" />
+      <workItem from="1615363871421" duration="1271000" />
     </task>
     <task id="LOCAL-00001" summary="spring1">
       <created>1615258173756</created>
@@ -253,7 +739,35 @@
       <option name="project" value="LOCAL" />
       <updated>1615361690730</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="delete wuwo">
+      <created>1615362390629</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615362390629</updated>
+    </task>
+    <task id="LOCAL-00010" summary="框架">
+      <created>1615364537461</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615364537461</updated>
+    </task>
+    <task id="LOCAL-00011" summary="框架">
+      <created>1615364851943</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615364851943</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]">
+      <created>1615365110709</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615365110709</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,12 +786,20 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/GitRepository" />
+    </ignored-roots>
     <MESSAGE value="spring1" />
     <MESSAGE value="测试增加删除" />
     <MESSAGE value="悟我" />
     <MESSAGE value="psvm" />
     <MESSAGE value="Create README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create README.md" />
+    <MESSAGE value="delete wuwo" />
+    <MESSAGE value="gf" />
+    <MESSAGE value="框架" />
+    <MESSAGE value="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
