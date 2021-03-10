@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="psvm">
+    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="Create README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/PushGithub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/component/WuWo.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/component/WuWo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +195,7 @@
       <workItem from="1615260399999" duration="729000" />
       <workItem from="1615261499327" duration="921000" />
       <workItem from="1615348059730" duration="98000" />
-      <workItem from="1615356242825" duration="4788000" />
+      <workItem from="1615356242825" duration="5422000" />
     </task>
     <task id="LOCAL-00001" summary="spring1">
       <created>1615258173756</created>
@@ -248,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615356808974</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create README.md">
+      <created>1615361690730</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615361690730</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +276,8 @@
     <MESSAGE value="测试增加删除" />
     <MESSAGE value="悟我" />
     <MESSAGE value="psvm" />
-    <option name="LAST_COMMIT_MESSAGE" value="psvm" />
+    <MESSAGE value="Create README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
