@@ -5,5 +5,5 @@ package com.xxxx.server.config.security.component;
  * @description：测试+
  * @author：
  */
-public class Tset {
+public class Test {
 }
