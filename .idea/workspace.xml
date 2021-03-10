@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="spring1">
+    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="Create README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="NO_FF" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\Git\bin\git.exe" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -66,7 +79,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -107,13 +120,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,6 +148,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.YebApplication" />
+        <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="Spring Boot.YebApplication" />
         <item itemvalue="Application.CodeGenerator" />
       </list>
@@ -178,6 +195,7 @@
       <workItem from="1615260399999" duration="729000" />
       <workItem from="1615261499327" duration="921000" />
       <workItem from="1615348059730" duration="98000" />
+      <workItem from="1615356242825" duration="5422000" />
     </task>
     <task id="LOCAL-00001" summary="spring1">
       <created>1615258173756</created>
@@ -214,7 +232,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615261918182</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试增加删除">
+      <created>1615348804692</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615348804692</updated>
+    </task>
+    <task id="LOCAL-00007" summary="悟我">
+      <created>1615356808974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615356808974</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create README.md">
+      <created>1615361690730</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615361690730</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +273,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring1" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring1" />
+    <MESSAGE value="测试增加删除" />
+    <MESSAGE value="悟我" />
+    <MESSAGE value="psvm" />
+    <MESSAGE value="Create README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
