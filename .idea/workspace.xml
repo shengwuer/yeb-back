@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="main">
+    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="合并">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/component/Git.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/component/Git.java" afterDir="false" />
     </list>
-    <list id="48223a4f-da9b-455b-9d9f-99e0ff0f4df6" name="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]" comment="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_10_11_58_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_10_15_23_[Default_Changelist]/shelved.patch" beforeDir="false" />
-    </list>
+    <list id="48223a4f-da9b-455b-9d9f-99e0ff0f4df6" name="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]" comment="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="dev" />
   </component>
   <component name="Git.Pull.Settings">
     <option name="OPTIONS">
@@ -131,15 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,6 +155,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.CodeGenerator" />
+        <item itemvalue="Spring Boot.YebApplication" />
+        <item itemvalue="应用程序.CodeGenerator" />
         <item itemvalue="Spring Boot.YebApplication" />
         <item itemvalue="Spring Boot.YebApplication" />
       </list>
@@ -335,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615366514766</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="合并">
+      <created>1615370130204</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615370130204</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +378,8 @@
     <MESSAGE value="git" />
     <MESSAGE value="qu" />
     <MESSAGE value="main" />
-    <option name="LAST_COMMIT_MESSAGE" value="main" />
+    <MESSAGE value="合并" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
