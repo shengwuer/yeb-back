@@ -1,8 +1,0 @@
-com\lypowernode\service\impl\StudentServiceImpl.class
-com\lypowernode\domain\StudentExample$Criteria.class
-com\lypowernode\domain\Student.class
-com\lypowernode\domain\StudentExample.class
-com\lypowernode\dao\StudentDao.class
-com\lypowernode\domain\StudentExample$Criterion.class
-com\lypowernode\domain\StudentExample$GeneratedCriteria.class
-com\lypowernode\service\StudentService.class
