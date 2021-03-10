@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="测试拉取">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_10_11_58__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_10_15_23__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/component/Tset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/component/Git.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/component/Git.java" afterDir="false" />
     </list>
     <list id="48223a4f-da9b-455b-9d9f-99e0ff0f4df6" name="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]" comment="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
@@ -209,7 +207,7 @@
       <workItem from="1615348059730" duration="98000" />
       <workItem from="1615356242825" duration="5748000" />
       <workItem from="1615363171969" duration="686000" />
-      <workItem from="1615363871421" duration="2220000" />
+      <workItem from="1615363871421" duration="2905000" />
     </task>
     <task id="LOCAL-00001" summary="spring1">
       <created>1615258173756</created>
@@ -309,7 +307,35 @@
       <option name="project" value="LOCAL" />
       <updated>1615365658400</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="删除">
+      <created>1615366186787</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615366186787</updated>
+    </task>
+    <task id="LOCAL-00016" summary="git">
+      <created>1615366315558</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615366315558</updated>
+    </task>
+    <task id="LOCAL-00017" summary="qu">
+      <created>1615366449444</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615366449444</updated>
+    </task>
+    <task id="LOCAL-00018" summary="main">
+      <created>1615366514766</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615366514766</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,9 +367,12 @@
     <MESSAGE value="gf" />
     <MESSAGE value="框架" />
     <MESSAGE value="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]" />
-    <MESSAGE value="删除" />
     <MESSAGE value="测试拉取" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试拉取" />
+    <MESSAGE value="删除" />
+    <MESSAGE value="git" />
+    <MESSAGE value="qu" />
+    <MESSAGE value="main" />
+    <option name="LAST_COMMIT_MESSAGE" value="main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
