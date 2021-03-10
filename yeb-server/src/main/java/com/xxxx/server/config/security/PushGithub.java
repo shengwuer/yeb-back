@@ -5,5 +5,6 @@ package com.xxxx.server.config.security;
  * @description：推送github
  * @author：
  */
+// 本地 dev分支
 public class PushGithub {
 }
