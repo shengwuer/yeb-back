@@ -11,5 +11,7 @@ public class Git {
 public static void main(String[] args) {
 //github更新
 }
+ public void upStudent(){
+ }
  }
 
