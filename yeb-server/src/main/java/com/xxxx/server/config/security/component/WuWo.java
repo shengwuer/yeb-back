@@ -6,4 +6,7 @@ package com.xxxx.server.config.security.component;
  * @author：
  */
 public class WuWo {
+    public static void main(String[] args) {
+
+    }
 }
