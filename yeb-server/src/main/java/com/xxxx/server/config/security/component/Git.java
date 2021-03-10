@@ -6,5 +6,8 @@ package com.xxxx.server.config.security.component;
  * @author：
  */
 public class Git {
+    public static void main(String[] args) {
+
+    }
 }
 
