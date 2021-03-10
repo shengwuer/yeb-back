@@ -5,6 +5,7 @@ package com.xxxx.server.config.security.component;
  * @description&#xFF1A;git
  * @author&#xFF1A;
  */
+// 本地 master 分支
 public class Git {
 // 主方法增加
 //更新
