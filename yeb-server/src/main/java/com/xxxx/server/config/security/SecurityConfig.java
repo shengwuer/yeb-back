@@ -53,7 +53,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 "/css/**",
                 "/js/**",
                 "/index.html"
-                ,"favicon.ioc"
+                ,"favicon.ico"
                 ,"/doc.html",
                 "/webjars/**",
                 "/swagger-resources/**",
