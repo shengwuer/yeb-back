@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="删除">
+    <list default="true" id="941fb5a4-94b1-48ce-80cf-94a68da6e0e1" name="Default Changelist" comment="favicon.ioc改favicon.ico">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/com/xxxx/server/config/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/com/xxxx/server/config/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/PositionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/PositionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Position.java" afterDir="false" />
     </list>
     <list id="48223a4f-da9b-455b-9d9f-99e0ff0f4df6" name="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]" comment="Uncommitted changes before Update at 2021/3/10 11:58 [Default Changelist]" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +211,7 @@
       <workItem from="1615427653704" duration="2813000" />
       <workItem from="1615442765314" duration="2686000" />
       <workItem from="1615789735133" duration="797000" />
-      <workItem from="1615795272970" duration="3363000" />
+      <workItem from="1615795272970" duration="6270000" />
     </task>
     <task id="LOCAL-00001" summary="spring1">
       <created>1615258173756</created>
@@ -374,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615796778077</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="favicon.ioc改favicon.ico">
+      <created>1615798685987</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1615798685987</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +421,8 @@
     <MESSAGE value="合并" />
     <MESSAGE value="测试" />
     <MESSAGE value="删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除" />
+    <MESSAGE value="favicon.ioc改favicon.ico" />
+    <option name="LAST_COMMIT_MESSAGE" value="favicon.ioc改favicon.ico" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
