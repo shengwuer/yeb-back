@@ -14,4 +14,12 @@
         id, adminId, rid
     </sql>
 
+    <insert id="addAdminRole">
+        insert into t_admin_role(adminId, rid) values
+        <!--<foreach collection="需要迭代的对象" item="元素的别名" separator="分隔符">-->
+        <foreach collection="rids" item="rid" separator=",">
+            (#{adminId}, #{rid})
+        </foreach>
+    </insert>
+
 </mapper>

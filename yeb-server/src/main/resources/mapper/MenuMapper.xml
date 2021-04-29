@@ -3,8 +3,12 @@
 <mapper namespace="com.xxxx.server.mapper.MenuMapper">
 
     <!-- 通用查询映射结果 -->
+    <!--column不做限制，可以为任意表的字段，而property须为type 定义的pojo属性-->
+    <!--<resultMap id="唯一的标识" type="映射的pojo对象">-->
     <resultMap id="BaseResultMap" type="com.xxxx.server.pojo.Menu">
+        <!--<id column="集合中pojo对象对应的表的主键字段" jdbcType="字段类型" property="集合中pojo对象的主键属性" />-->
         <id column="id" property="id" />
+        <!--<result column="可以为任意表的字段" jdbcType="字段类型" property="集合中的pojo对象的属性" /> -->
         <result column="url" property="url" />
         <result column="path" property="path" />
         <result column="component" property="component" />
@@ -16,9 +20,15 @@
         <result column="enabled" property="enabled" />
     </resultMap>
 
+    <!--column不做限制，可以为任意表的字段，而property须为type 定义的pojo属性-->
+    <!--<resultMap id="唯一的标识" type="映射的pojo对象">-->
     <resultMap id="Menus" type="com.xxxx.server.pojo.Menu" extends="BaseResultMap">
+        <!-- 集合中的property须为oftype定义的pojo对象的属性-->
+        <!--<collection property="pojo的集合属性" ofType="集合中的pojo对象">-->
         <collection property="children" ofType="com.xxxx.server.pojo.Menu">
+            <!--<id column="集合中pojo对象对应的表的主键字段" jdbcType="字段类型" property="集合中pojo对象的主键属性" />-->
             <id column="id2" property="id" />
+            <!--<result column="可以为任意表的字段" jdbcType="字段类型" property="集合中的pojo对象的属性" /> -->
             <result column="url2" property="url" />
             <result column="path2" property="path" />
             <result column="component2" property="component" />
@@ -31,18 +41,48 @@
         </collection>
     </resultMap>
 
+    <!--column不做限制，可以为任意表的字段，而property须为type 定义的pojo属性-->
+    <!--<resultMap id="唯一的标识" type="映射的pojo对象">-->
     <resultMap id="MenusWithRole" type="com.xxxx.server.pojo.Menu" extends="BaseResultMap">
+        <!-- 集合中的property须为oftype定义的pojo对象的属性-->
+        <!--<collection property="pojo的集合属性" ofType="集合中的pojo对象">-->
         <collection property="roles" ofType="com.xxxx.server.pojo.Role">
+            <!--<id column="集合中pojo对象对应的表的主键字段" jdbcType="字段类型" property="集合中pojo对象的主键属性" />-->
            <id column="rid" property="id"/>
+            <!--<result column="可以为任意表的字段" jdbcType="字段类型" property="集合中的pojo对象的属性" /> -->
             <result column="rname" property="name"/>
             <result column="rnameZh" property="nameZh"/>
         </collection>
     </resultMap>
+
+    <resultMap id="menusWithChildren" type="com.xxxx.server.pojo.Menu" extends="BaseResultMap">
+        <!--一级菜单-->
+        <id column="id1" property="id"/>
+        <result column="name1" property="name"/>
+        <result column="url1" property="url"/>
+        <!--二级菜单-->
+        <!-- 集合中的property须为oftype定义的pojo对象的属性-->
+        <!--<collection property="pojo的集合属性" ofType="集合中的pojo对象">-->
+        <collection property="children" ofType="com.xxxx.server.pojo.Menu">
+            <!--<id column="集合中pojo对象对应的表的主键字段" jdbcType="字段类型" property="集合中pojo对象的主键属性" />-->
+            <id column="id2" property="id"/>
+            <!--<result column="可以为任意表的字段" jdbcType="字段类型" property="集合中的pojo对象的属性" /> -->
+            <result column="name2" property="name"/>
+            <result column="url2" property="url"/>
+            <!--三级菜单-->
+            <collection property="children" ofType="com.xxxx.server.pojo.Menu">
+                <id column="id3" property="id"/>
+                <result column="name3" property="name"/>
+                <result column="url3" property="url"/>
+            </collection>
+        </collection>
+    </resultMap>
+
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
         id, url, path, component, name, iconCls, keepAlive, requireAuth, parentId, enabled
     </sql>
-    <!--根据用户id查询菜单列表-->
+    <!--根据用户id查询菜单列表(包括子菜单列表)-->
     <select id="getMenusByAdminId" resultMap="Menus">
         SELECT DISTINCT
             m1.*,
@@ -65,11 +105,14 @@
             m1.id = m2.parentId
           AND m2.id = mr.mid
           AND mr.rid = ar.rid
+          /*这里不应该是adminId吗?
+              AND ar.adminId = #{adminId}*/
           AND ar.adminId = #{id}
           AND m2.enabled = TRUE
         ORDER BY
             m2.id
     </select>
+
     <!-- 根据角色获取菜单列表 -->
     <select id="getMenusWithRole" resultMap="MenusWithRole">
         SELECT
@@ -87,4 +130,28 @@
         ORDER BY
             m.id
     </select>
+    <!--查询所有菜单(包括子菜单)-->
+    <select id="getAllMenus" resultMap="menusWithChildren">
+        SELECT
+            m1.id AS id1,
+            m1.`name` AS name1,
+               m1.url as url1,
+
+            m2.id AS id2,
+            m2.`name` AS name2,
+            m2.url as url2,
+
+            m3.id AS id3,
+            m3.`name` AS name3,
+               m3.url as url3
+        FROM
+            `t_menu` m1,
+            t_menu m2,
+            t_menu m3
+        WHERE
+            m1.id = m2.parentId
+          AND m2.id = m3.parentId
+          AND m3.enabled = TRUE
+    </select>
+
 </mapper>

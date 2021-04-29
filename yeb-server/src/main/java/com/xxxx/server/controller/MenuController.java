@@ -24,11 +24,13 @@ import java.util.List;
 @RestController
 @RequestMapping("/system/config")
 public class MenuController {
+
     @Autowired
     private IMenuService menuService;
 
     @ApiOperation(value ="通过用户id查询菜单列表")
     @GetMapping("/menu")
+    // 用户登录会有个全局对象, 通过全局对象获取id
     public List<Menu> getMenusByAdminId(){
         return menuService.getMenusByAdminId();
     }

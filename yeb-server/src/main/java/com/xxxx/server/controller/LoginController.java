@@ -45,6 +45,7 @@ public class LoginController {
        // 设置密码
        admin.setPassword(null);
        // 设置密码时在设置一个authorities,setRoles()拿到一个adminId,这样返回用户信息就有我们的一个角色
+        // 根据用户id获取角色
        admin.setRoles(adminService.getRoles(admin.getId()));
        return admin;
     }

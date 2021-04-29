@@ -27,7 +27,7 @@ public class CustomUrlDecisionManager implements AccessDecisionManager {
         for (ConfigAttribute configAttribute : configAttributes) {
             // 当前url所需角色. (configAttributes其实是当前url所需要的一个角色)
             String needRole = configAttribute.getAttribute();
-            // 判断角色是否登录即可访问角色 , 此角色在CustomFilter中设置. (之前准备了一个"ROLE_LOGIN")
+            // 判断角色是否登录即可访问角色 , 此角色在CustomFilter中设置. (之前准备了一个"ROLE_LOGIN")如果不是这个角色这一步就直接跳过进入下一步
             if ("ROLE_LOGIN".equals(needRole)){
                 // 如果是一致, 再去判断是否登录 , 判断是不是AnonymousAuthenticationToken
                 if (authentication instanceof AnonymousAuthenticationToken){
@@ -55,11 +55,11 @@ public class CustomUrlDecisionManager implements AccessDecisionManager {
 
     @Override
     public boolean supports(ConfigAttribute attribute) {
-        return true;
+        return false;
     }
 
     @Override
     public boolean supports(Class<?> clazz) {
-        return true;
+        return false;
     }
 }

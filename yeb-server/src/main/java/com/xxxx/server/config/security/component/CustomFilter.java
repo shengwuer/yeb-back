@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * @date ：Created in 2021/2/27 15:01
  * @description：权限控制
- *  根据请求url分析请求所需的角色
+ *  根据请求t_menu表里的url分析请求所需的角色
  *
  * @author：
  */
@@ -36,12 +36,12 @@ public class CustomFilter implements FilterInvocationSecurityMetadataSource {
     public Collection<ConfigAttribute> getAttributes(Object object) throws IllegalArgumentException {
         // 首先获取请求的url用((FilterInvocation) object).getFullRequestUrl()获取请求url
         String requestUrl = ((FilterInvocation) object).getFullRequestUrl();
-        // 然后获取请求到url就可以用MenuService
+        // 然后获取请求到url就可以用menuService.getMenusWithRole()根据角色获得url的权限有哪些
         List<Menu> menus = menuService.getMenusWithRole();
         // 把 menus循环判断一下
         for (Menu menu : menus){
             // 判断请求url与Menu里面的url的菜单角色是否匹配
-            // 通过antPathMatcher对象调用match()
+            // 通过antPathMatcher对象调用match() 匹配 t_menu表里的url和requestUrl是否一样
             if (antPathMatcher.match(menu.getUrl(),requestUrl)){
                 // 需要通过 menu.getRoles()拿到他的角色然后我们用.stream().map(Role::getName).toArray(String[]::new)拿到一个数组
                 String[] str = menu.getRoles().stream().map(Role::getName).toArray(String[]::new);
@@ -60,6 +60,6 @@ public class CustomFilter implements FilterInvocationSecurityMetadataSource {
 
     @Override
     public boolean supports(Class<?> clazz) {
-        return true;
+        return false;
     }
 }

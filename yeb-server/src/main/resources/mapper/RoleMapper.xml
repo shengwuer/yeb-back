@@ -11,8 +11,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id
-        , name, nameZh
+        id , name, nameZh
     </sql>
     <!--根据用户id查询角色列表-->
     <select id="getRoles" resultType="com.xxxx.server.pojo.Role">
@@ -22,5 +21,7 @@
         FROM t_role AS r
                  LEFT JOIN t_admin_role AS ar ON r.id = ar.rid
         WHERE ar.adminId = #{adminId}
+
+
     </select>
 </mapper>

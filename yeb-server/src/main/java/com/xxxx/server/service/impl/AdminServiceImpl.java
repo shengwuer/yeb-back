@@ -2,13 +2,17 @@ package com.xxxx.server.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xxxx.server.AdminUtil;
 import com.xxxx.server.config.security.component.JwtTokenUtil;
 import com.xxxx.server.mapper.AdminMapper;
+import com.xxxx.server.mapper.AdminRoleMapper;
 import com.xxxx.server.mapper.RoleMapper;
 import com.xxxx.server.pojo.Admin;
+import com.xxxx.server.pojo.AdminRole;
 import com.xxxx.server.pojo.RespBean;
 import com.xxxx.server.pojo.Role;
 import com.xxxx.server.service.IAdminService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -17,6 +21,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
@@ -32,6 +37,7 @@ import java.util.Map;
  * @author zhoubin
  * @since 2021-02-03
  */
+@Slf4j
 @Service
 public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements IAdminService {
     @Autowired
@@ -48,6 +54,9 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
 
     @Autowired
     private RoleMapper roleMapper;
+
+    @Autowired
+    private AdminRoleMapper adminRoleMapper;
     /**(第1步).
      * @Description: 登录之后返回token
      * @Author     :
@@ -68,7 +77,7 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
             return RespBean.error("账号被禁用, 请联系管理员");
         }
         // 更新security登录用户对象
-
+        log.info("userDetails.getAuthorities()", userDetails.getAuthorities());
         UsernamePasswordAuthenticationToken authenticationToken = new
                 UsernamePasswordAuthenticationToken(userDetails,null,userDetails.getAuthorities());
         SecurityContextHolder.getContext().setAuthentication(authenticationToken);
@@ -92,14 +101,51 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
     }
 
 
-    /*
+    /**
      * 根据用户id查询角色列表
-     *
-     * */
+     * @param adminId
+     * @return
+     */
     @Override
     public List<Role> getRoles(Integer adminId) {
         // 把他放在roleMapper里面
         return roleMapper.getRoles(adminId);
+    }
+
+    /**
+     * 获取操作员
+     * @param keywords
+     * @return
+     */
+    @Override
+    public List<Admin> getAllAdmins(String keywords) {
+        return  adminMapper.getAllAdmins(AdminUtil.getCurrentAdmin().getId(), keywords);
+    }
+
+    /**
+     * 更新操作员角色
+     * @param adminId
+     * @param rids
+     * @return
+     */
+    @Override
+    @Transactional
+    public RespBean updateAdminRole(Integer adminId, Integer[] rids) {
+        // 输入的id不能是空的否则会失败
+        for (Integer rid : rids) {
+            if (rid == null) {
+                return RespBean.error("输入角色错误!!");
+            }
+        }
+        // 先删除用户所有角色
+        adminRoleMapper.delete(new QueryWrapper<AdminRole>().eq("adminId",adminId));
+        // 再添加角色
+
+        Integer result = adminRoleMapper.addAdminRole(adminId, rids);
+        if (rids.length == result) {
+            return RespBean.success("更新成功!");
+        }
+        return RespBean.error("更新失败!");
     }
 
 

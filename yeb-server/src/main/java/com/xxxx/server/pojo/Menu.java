@@ -61,12 +61,15 @@ public class Menu implements Serializable {
     @ApiModelProperty(value = "是否启用")
     private Boolean enabled;
 
+    //添加一个子菜单
     @ApiModelProperty(value = "子菜单")
+    // TableField 表示表字段没有这个字段
     @TableField(exist = false)
     private List<Menu> children;
 
-    // 根据菜单里的url查询哪些角色拥有这些权限
+    // 根据菜单列表menu表里的url查询哪些角色拥有那些权限
     @ApiModelProperty(value = "角色列表")
+    // TableField 表示此表(t_menu)字段没有这个字段
     @TableField(exist = false)
     private List<Role> roles;
 }

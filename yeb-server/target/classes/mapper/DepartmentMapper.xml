@@ -12,9 +12,45 @@
         <result column="isParent" property="isParent" />
     </resultMap>
 
+    <!--方法一-->
+    <resultMap id="DepartmentWithChildren" type="com.xxxx.server.pojo.Department" extends="BaseResultMap">
+        <!-- <collection column="传递给嵌套查询语句的字段参数" property="pojo对象中集合属性" ofType="集合属性中的pojo对象"
+        select="嵌套的查询语句" >-->
+        <collection column="id" property="children" ofType="com.xxxx.server.pojo.Department"
+                    select="com.xxxx.server.mapper.DepartmentMapper.getAllDepartments">
+        </collection>
+    </resultMap>
+    <!--方法二还没试-->
+   <!-- <resultMap id="DepartmentWithChildren" type="com.xxxx.server.pojo.Department" extends="BaseResultMap">
+        &lt;!&ndash; 集合中的property须为oftype定义的pojo对象的属性&ndash;&gt;
+        &lt;!&ndash;<collection property="pojo的集合属性" ofType="集合中的pojo对象">&ndash;&gt;
+        <collection property="children" ofType="com.xxxx.server.pojo.Department">
+            &lt;!&ndash;<id column="集合中pojo对象对应的表的主键字段" jdbcType="字段类型" property="集合中pojo对象的主键属性" />&ndash;&gt;
+            <id column="parentId" property="parentId"/>
+            &lt;!&ndash;<result column="可以为任意表的字段" jdbcType="字段类型" property="集合中的pojo对象的属性" /> &ndash;&gt;
+            <result column="name" property="name"/>
+        </collection>
+    </resultMap>-->
+
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
         id, name, parentId, depPath, enabled, isParent
     </sql>
 
+    <!--添加部门-->
+    <select id="addDepartment" statementType="CALLABLE">
+        call addDep(#{name,mode=IN,jdbcType =VARCHAR},#{parentId,mode=IN,jdbcType=INTEGER},#{enabled,mode=IN,
+         jdbcType=BOOLEAN},#{result,mode=OUT,jdbcType=INTEGER},#{id,mode=OUT,jdbcType=INTEGER})
+    </select>
+
+    <select id="deleteDepartment" statementType="CALLABLE">
+        call deleteDep(#{id,mode=IN,jdbcType=INTEGER}, #{result, mode = OUT, jdbcType = INTEGER})
+    </select>
+    <!--获取所有部门列表-->
+    <select id="getAllDepartments" resultMap="DepartmentWithChildren">
+        select
+            <include refid="Base_Column_List" />
+        from t_department
+        where parentId = #{parentId}
+    </select>
 </mapper>

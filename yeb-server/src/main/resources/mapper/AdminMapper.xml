@@ -15,10 +15,44 @@
         <result column="userFace" property="userFace" />
         <result column="remark" property="remark" />
     </resultMap>
+    <!--column不做限制，可以为任意表的字段，而property须为type 定义的pojo属性-->
+    <!--<resultMap id="唯一的标识" type="映射的pojo对象">-->
+    <resultMap id="AdminWithRole" type="com.xxxx.server.pojo.Admin" extends="BaseResultMap">
+        <!-- 集合中的property须为oftype定义的pojo对象的属性-->
+        <!--<collection property="pojo的集合属性" ofType="集合中的pojo对象">-->
+        <collection property="roles" ofType="com.xxxx.server.pojo.Role">
+            <!--<id column="集合中pojo对象对应的表的主键字段" jdbcType="字段类型" property="集合中pojo对象的主键属性" />-->
+            <id column="rid" property="id"/>
+            <!--<result column="可以为任意表的字段" jdbcType="字段类型" property="集合中的pojo对象的属性" /> -->
+            <result column="rname" property="name"/>
+            <result column="rnameZh" property="nameZh"/>
+        </collection>
+    </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
         id, name, phone, telephone, address, enabled, username, password, userFace, remark
     </sql>
+
+    <!--获取操作员-->
+    <select id="getAllAdmins" resultMap="AdminWithRole">
+        SELECT
+            a.*,
+            r.id AS rid,
+            r.`name` AS rname,
+            r.nameZh AS rnameZh
+        FROM
+            t_admin a
+                LEFT JOIN t_admin_role ar ON a.id = ar.adminId
+                LEFT JOIN t_role r ON ar.rid = r.id
+        WHERE
+            a.id != #{id1}
+        <if test="null!=keywords and ''!=keywords">
+            AND a.`name` LIKE CONCAT( '%', #{keywords}, '%' )
+        </if>
+
+        ORDER BY
+            a.id
+    </select>
 
 </mapper>

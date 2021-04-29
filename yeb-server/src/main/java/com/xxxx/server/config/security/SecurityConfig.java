@@ -106,9 +106,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     @Bean
     public UserDetailsService userDetailsService(){
+        //
         return username ->{
             Admin admin = adminService.getAdminByUserName(username);
+            // 用户登录以后根据用户id获取角色
             if (null!=admin){
+                // 根据用户id设置用户角色 (用户登录以后根据用户id获取角色)
                 admin.setRoles(adminService.getRoles(admin.getId()));
                 return admin;
             }
@@ -122,6 +125,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public PasswordEncoder passwordEncoder(){
         // return new BCryptPasswordEncoder类的构造方法创建 passwordEncoder()方法
         return new BCryptPasswordEncoder();
+
+        /*
+           这样写跟上面一样效果吗?
+        BCryptPasswordEncoder passwordEncoder =new BCryptPasswordEncoder();
+        return  passwordEncoder;*/
     }
     @Bean
     public JwtAuthencationTokenFilter jwtAuthencationTokenFilter(){
